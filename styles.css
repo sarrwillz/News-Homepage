@@ -1,0 +1,94 @@
+@import url("https://fonts.googleapis.com/css2?family=Alata&family=Inter:wght@400;700;800&display=swap");
+:root {
+  --font-family: "Alata", sans-serif;
+  --clr-heading: hsl(236, 13%, 42%);
+  --clr-paragraph: hsl(233, 8%, 79%);
+  --clr-sub-body: hsl(35, 77%, 62%);
+  --clr-main-body: hsl(240, 100%, 5%);
+}
+::after,
+::before {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+p {
+  font-size: 17px;
+  color: var(--clr-heading);
+  line-height: 1.5;
+}
+nav-top {
+  display: flex;
+  justify-content: space-between;
+}
+nav-bar {
+  display: none;
+}
+.main-body img {
+  width: 100%;
+  margin-top: 2em;
+}
+.main-body h1 {
+  font-size: 3rem;
+  color: var(--clr-main-body);
+  line-height: 1;
+}
+
+.btn {
+  text-decoration: none;
+  display: block;
+  text-align: center;
+  background-color: red;
+  color: #fff;
+  text-transform: uppercase;
+  border: 15px;
+  padding: 10px;
+  width: 50%;
+}
+.sub-body {
+  background-color: var(--clr-main-body);
+  margin-top: 3em;
+}
+.sub__body {
+  margin: 2em;
+}
+.sub__body h2 {
+  color: var(--clr-sub-body);
+  padding: 1em;
+  font-size: 2rem;
+}
+.sub__body h3 {
+  color: #fff;
+}
+.img-section-one img {
+  width: 30%;
+}
+.img-section-one {
+  display: flex;
+  justify-content: space-between;
+}
+.data-section {
+  width: 60%;
+}
+.img-section-two {
+  display: flex;
+  margin-top: 2em;
+  justify-content: space-between;
+}
+.img-section-two .data-section {
+  width: 60%;
+}
+.img-section-two img {
+  width: 30%;
+}
+.img-section-three {
+  display: flex;
+  margin-top: 2em;
+  justify-content: space-between;
+}
+.img-section-three img {
+  width: 30%;
+}
+.img-section-three .data-section {
+  width: 60%;
+}
